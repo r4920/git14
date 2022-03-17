@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="iphone13Mini1VM" type="com.rahulsapplication.app.modules.iphone13mini1.data.viewmodel.Iphone13Mini1VM"/>
+    </data>
+    <LinearLayout android:background="@color/white_A700"
+        android:gravity="center_horizontal"
+        android:id="@+id/linearIPhone13mini"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" android:orientation="vertical"/>
+</layout>
