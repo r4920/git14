@@ -20,12 +20,12 @@ public class AppNavigationActivity :
   }
 
   public override fun setUpClicks(): Unit {
-    binding.linearIPhone13Mini1.setOnClickListener {
-      val destIntent = Iphone13Mini1Activity.getIntent(this, null)
-      startActivity(destIntent)
-    }
     binding.linearIPhone11ProX8.setOnClickListener {
       val destIntent = Iphone11ProX8Activity.getIntent(this, null)
+      startActivity(destIntent)
+    }
+    binding.linearIPhone13Mini1.setOnClickListener {
+      val destIntent = Iphone13Mini1Activity.getIntent(this, null)
       startActivity(destIntent)
     }
   }

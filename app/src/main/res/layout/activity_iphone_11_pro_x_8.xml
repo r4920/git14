@@ -16,8 +16,8 @@
             android:layout_marginEnd="@dimen/_140pxh"
             android:layout_marginStart="@dimen/_140pxh"
             android:layout_marginTop="@dimen/_315pxv" android:layout_width="@dimen/_94pxh"/>
-        <TextView android:ellipsize="end" android:id="@+id/txtE"
-            android:layout_gravity="top|center"
+        <TextView android:clickable="true" android:ellipsize="end"
+            android:id="@+id/txtE" android:layout_gravity="top|center"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/_328pxv"
             android:layout_marginEnd="@dimen/_159pxh"
